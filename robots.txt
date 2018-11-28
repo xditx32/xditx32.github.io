@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://stefanprodan.com/sitemap.xml 
+Sitemap: https://xditx32.github.io/sitemap.xml 

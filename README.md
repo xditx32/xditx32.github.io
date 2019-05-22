@@ -1,6 +1,5 @@
 > This project blog forked and has been modified from [Stefan Prodan's Blog](https://stefanprodan.com)
 
-📌 
 #xditx32 Personal Blog 
 
 Install prerequisites:

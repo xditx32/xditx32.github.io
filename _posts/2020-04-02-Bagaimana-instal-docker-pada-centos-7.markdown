@@ -15,29 +15,29 @@ Ini adalah panduan tentang cara menginstal Docker pada [CentOS7](https://docs.do
 
 Tutorial langkah demi langkah tentang cara menginstal Docker di CentOS7.x.
 
-Langkah 1: Update CentOS + Buka jendela terminal `CTRL+T`
+### Langkah 1: Update CentOS + Buka jendela terminal `CTRL+T`
 ```bash
 sudo yum -y update
 ```
 
-Langkah 2: Instal Paket Dependensi 
+### Langkah 2: Instal Paket Dependensi 
 ```bash
 sudo yum install -y yum-utils device-mapper-persisten-data lvm2
 ```
 
-Langkah 3: Tambahkan Doker Repository pada CentOS
+### Langkah 3: Tambahkan Doker Repository pada CentOS
 ```bash
 sudo yum-config-manager --add-repo https://download.doker.com/linux/centos/docker-ce.repo
 ```
 
-Langkah 4: Instal Docker pada CentOS
+### Langkah 4: Instal Docker pada CentOS
 ```bash
 sudo yum install -y docker-ce
 ```
 
 Setelah instalasi selesai
 
-Langkah 5: Kelola layanan Docker pada CentOS
+### Langkah 5: Kelola layanan Docker pada CentOS
 
 Meskipun telah di instal Docker pada CentOS layanan ini mash belum berjalan.
 
@@ -54,8 +54,8 @@ Status Service Docker (Status Layanan Docker telah aktif)
 sudo systemctl status docker
 ```
 
-
-Note! Bilamana terjadi `docker-engine conflicts with docker-common2` pada Langkah 4:
+### Note!
+Bilamana terjadi `docker-engine conflicts with docker-common2` pada Langkah 4:
 ```bash
 Transaction check error:file /usr/bin/docker from install of docker-engine-1.13.0-1.el7.centos.x86_64 conflicts with file from package docker-common-2:1.10.3-59.el7.centos.x86_64
 ```
@@ -63,7 +63,22 @@ Cara memperbaiki permasalahan menghapus paket :
 ```bash
 sudo yum remove docker-common
 ```
-Biarkan operasi selesai bilamana sudah ulangi Langkah 4
+Biarkan operasi selesai bilamana sudah ulangi Langkah 4 proses instalasi
+
+### Langkah ke 6: Jalankan Docker yang sudah di Instal
+* Memastikan versi docker yang di instal
+```bash
+sudo docker version 
+```
+* Contoh pull `Hello-World` image dari Docker [Hub](https://hub.docker.com/) dan run container: 
+```bash
+sudo run hello-world
+```
+Output yang di hasilkan :
+```bash
+Hello from Docker
+This message shows that your installation appears to be working correctly.
+```
 
 Kesimpulan
 Jika Anda mengikuti panduan ini, Anda seharusnya telah menginstal Docker pada mesin CentOS 7 Anda. Sekarang Anda dapat menjelajahi dunia Docker.

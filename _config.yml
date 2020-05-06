@@ -2,7 +2,7 @@ encoding: utf-8
 
 # Site settings
 title: Aditya Nur Rohman
-description: 'I am 🌐 developer'
+description: 'Hallo I am ☕️ developer'
 url: 'https://xditx32.github.io'
 baseurl: '/'
 google_analytics: 'UA-116475356-3'
@@ -13,7 +13,7 @@ author:
   twitter_username: aditya_0606
   github_username:  xditx32
   linkedin_username:  aditya06
-  stackoverflow_username: ''
+  stackoverflow_username: xditx32
 
 defaults:
   -

@@ -1,19 +1,19 @@
 encoding: utf-8
 
 # Site settings
-title: Stefan Prodan
-description: 'Co-Founder of Veritech Solutions. Passionate about software architecture, domain driven design and DevOps. Loves programming in .NET, JS and Go'
-url: 'https://stefanprodan.com'
+title: Aditya Nur Rohman
+description: ''
+url: 'https://xditx32.github.io'
 baseurl: '/'
-#google_analytics: 'UA-21524511-1'
-#disqus_shortname: 'stefanprodan'
+# google_analytics: 'UA-116475356-3'
+# disqus_shortname: 'xditx32'
 
 author:
-  name: 'Stefan Prodan'
-  twitter_username: stefanprodan
-  github_username:  stefanprodan
-  linkedin_username:  stefanprodan
-  stackoverflow_username: stefanprodan
+  name: 'Aditya Nur Rohman'
+  twitter_username: aditya_0606
+  github_username:  xditx32
+  linkedin_username:  aditya06
+  stackoverflow_username: xditx32
 
 defaults:
   -
